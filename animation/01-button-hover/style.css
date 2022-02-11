@@ -17,3 +17,11 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+button:hover {
+  transform: scale(1.25);
+}
+
+#transition-container button {
+  transition: 0.5s all ease-in-out
+}
