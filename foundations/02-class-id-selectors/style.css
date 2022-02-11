@@ -1,0 +1,19 @@
+.background-color {
+    background-color: rgb(243, 128, 51);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+#one-id {
+    color: #0d2ee4ef;
+    font-size: 36px;
+}
+
+#two-id {
+    background-color: hsl(120, 77%, 71%);
+    font-size: 24px;
+    font-weight: bold;
+}
