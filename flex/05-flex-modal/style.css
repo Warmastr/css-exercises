@@ -2,6 +2,9 @@
 
 html, body {
   height: 100%;
+  /* My code is below here */
+
+
 }
 
 body {
@@ -13,6 +16,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* My code is below here */
+
+
 }
 
 .modal {
@@ -20,6 +26,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* My code is below here */
+  display: flex;
+  
 }
 
 .icon {
@@ -33,6 +42,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* My code is below here */
+  flex: 0 0 auto;
+  margin: 12px;
 }
 
 .close-button {
@@ -46,21 +58,51 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* My code is below here */
+
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  /* My code is below here */
+
+
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  /* My code is below here */
+
+
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  /* My code is below here */
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+.header {
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  align-items: center; 
+}
+
+.text {
+  padding-right: 12px;
+}
+.box {
+  
 }
